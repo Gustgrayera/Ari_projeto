@@ -36,8 +36,8 @@
   --rajah: hsl(29, 99%, 67%);
   --white: hsl(0, 0%, 100%);
 
-  --gradient-1: linear-gradient(90deg,var(--royal-blue-dark) 0,var(--ksu-purple) 51%,var(--royal-blue-dark));
-  --gradient-2: linear-gradient(90deg,var(--razzmatazz) ,var(--rajah));
+  --gradient-1: linear-gradient(90deg,var(--royal-blue-dark) 0,var(--purple-navy) 51%,var(--royal-blue-dark));
+  --gradient-2: linear-gradient(90deg,var(--white) ,var(--rajah));
 
   /**
    * typography
@@ -169,7 +169,7 @@ body {
 .btn {
   background-image: var(--gradient-2);
   background-size: 200%;
-  color: var(--white);
+  color: var(--purple-navy);
   padding: 12px 35px;
   font-size: var(--fs-8);
   font-weight: var(--fw-500);
@@ -249,10 +249,10 @@ body {
 }
 
 .header.active {
-  --color: var(--st-patricks-blue);
+  --color: var(--white);
 
   position: fixed;
-  background-color: var(--white);
+  background-color: var(--royal-blue-dark);
   box-shadow: 0 2px 30px hsla(0, 0%, 0%, 0.1);
 }
 
